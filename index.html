@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Jogo</h1>
+    <p>Digite um número e clique em "Adicionar". Quando terminar, clique em "Calcular Média".</p>
+
+    <input type="number" id="numero" placeholder="Digite um número" />
+    <button onclick="adicionarNumero()">Adicionar</button>
+    <button onclick="calcularMedia()">Calcular Média</button>
+    <button onclick="resetar()">Reiniciar</button>
+
+    <div id="lista"></div>
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
